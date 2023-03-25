@@ -1,0 +1,366 @@
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+div.cart-collaterals ul.products li.product {
+  float: left;
+  margin-left: 30px;
+  position: relative;
+  width: 160px;
+}
+.coupon input[type="text"] {
+  width: 100px;
+}  
+input[type="submit"], button[type="submit"] {
+  padding: 11px 15px;
+} 
+.col-1, .col-2 {
+  width: 293px;
+}    
+    
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.user-menu, .header-right ul.list-inline {
+  text-align: center;
+}
+.mainmenu-area ul.navbar-nav li a {
+  font-size: 14px;
+  padding: 15px 10px;
+}  
+.single-promo {margin-bottom: 30px}    
+.single-product-widget, .footer-about-us, .footer-menu {
+  margin-bottom: 60px;
+}
+    
+    
+.product-widget-area .zigzag-bottom {
+  bottom: -50px;
+  height: 100px;
+}
+.product-widget-area {
+  padding-bottom: 90px;
+}   
+    
+.footer-top-area .zigzag-bottom {
+  bottom: -153px;
+  height: 200px;
+}    
+.footer-top-area {
+  padding: 35px 0 125px;
+}  
+div.cart-collaterals ul.products li.product {
+  width: 190px;
+}  
+    
+.col-1, .col-2 {
+  width: 345px;
+}    
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.user-menu, .header-right ul.list-inline {
+  text-align: center;
+}  
+.logo h1 {
+  font-size: 30px;
+  margin: 20px 0;
+  text-align: center;
+} 
+.shopping-item {
+  float: none;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: center;
+}  
+.navbar-header {
+  text-align: center;
+}    
+    
+.navbar-toggle {
+    border-color: #fff;
+    float: none;
+    margin: 10px auto;
+}
+.navbar-toggle .icon-bar { background: none repeat scroll 0 0 #fff }  
+.navbar-collapse.collapse.in {
+  background: none repeat scroll 0 0 #1abc9c;
+  position: relative;
+  z-index: 99;
+} 
+.mainmenu-area ul.navbar-nav li a {
+  padding: 15px;
+}  
+.mainmenu-area {position: relative !important}
+.slide-text {
+  font-size: 16px;
+}  
+.slide-text h2 {
+  font-size: 30px;
+}  
+.readmore {
+  font-size: 16px;
+  padding: 8px 20px;
+}    
+.single-promo {
+  margin-bottom: 30px;
+} 
+.section-title {
+  font-size: 35px;
+}  
+    
+    
+.product-widget-area .zigzag-bottom {
+  bottom: -50px;
+  height: 100px;
+}
+.product-widget-area {
+  padding-bottom: 90px;
+}   
+    
+.footer-top-area .zigzag-bottom {
+  bottom: -153px;
+  height: 200px;
+}    
+.footer-top-area {
+  padding: 35px 0 125px;
+} 
+    
+.single-product-widget, .footer-about-us, .footer-menu {
+  margin-bottom: 60px;
+}  
+    
+.product-wid-title {
+  font-size: 25px;
+}  
+    
+.related-products-wrapper .owl-nav {
+  left: -15px;
+  position: relative;
+  right: inherit;
+  top: 15px;
+}  
+div.cart-collaterals ul.products {
+  margin: 0;
+}  
+div.cart-collaterals ul.products li.product {
+  margin-bottom: 30px;
+  margin-left: 0;
+  width: 100%;
+}  
+div.cart-collaterals ul.products li.product img {width: 100%}  
+    
+.product-bit-title h2 {
+  font-size: 35px;
+  padding: 40px 0;
+}  
+.col2-set {
+  margin-left: 0;
+}    
+.col-1, .col-2 {
+  float: none;
+  margin-left: 0;
+  width: inherit;
+}    
+    
+    
+/* Special */    
+    
+table.shop_table th, table.shop_table td {
+  font-size: 12px;
+  padding: 5px;
+}    
+td.product-thumbnail img {
+  width: 30px;
+} 
+    
+div.quantity input.plus, div.quantity input.minus {
+  display: none;
+}   
+table.shop_table th {
+  font-size: 12px;
+}    
+div.coupon input[type="text"] {
+  width: 100px;
+} 
+.coupon {margin-bottom: 10px}      
+.cross-sells {
+  float: none;
+  margin-bottom: 30px;
+  margin-right: 0;
+  width: 100%;
+}  
+.cart_totals, .cart-collaterals .shipping_calculator {
+  float: none;
+  margin-bottom: 40px;
+  width: 100%;
+}  
+
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+.mytext1{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: #002f5f;
+  position: relative;
+  animation: text 3s 1;
+
+}
+.mytext2{
+  font-size: 30px;
+    color: #E91E63;
+    font-weight: bold;
+    font-family: cursive;
+}
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+
+  }    
+   
+.has-animation {
+  position: relative;
+}
+.has-animation p, .has-animation img {
+  opacity: 0;
+}
+.has-animation.animate-in p, .has-animation.animate-in img {
+  animation: textHidden 0.1s 1.1s forwards;
+}
+.has-animation.animate-in:before, .has-animation.animate-in:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 10;
+}
+.has-animation.animate-in:before {
+  background-color: teal;
+}
+.has-animation.animate-in:after {
+  background-color: yellowgreen;
+  animation-delay: .5s;
+}
+.has-animation.animation-ltr.animate-in:before {
+  animation: revealLTR 1.8s ease;
+}
+.has-animation.animation-ltr.animate-in:after {
+  animation: revealLTR 1s .6s ease;
+}
+.has-animation.animation-rtl.animate-in:before {
+  animation: revealRTL 1.8s ease;
+}
+.has-animation.animation-rtl.animate-in:after {
+  animation: revealRTL 1s .6s ease;
+}
+
+@keyframes revealRTL {
+  0% {
+    width: 0;
+    right: 0;
+  }
+  65% {
+    width: 100%;
+    right: 0;
+  }
+  100% {
+    width: 0;
+    right: 100%;
+  }
+}
+@keyframes revealLTR {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  65% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes textHidden {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+
+
+   
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+  
+    
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
